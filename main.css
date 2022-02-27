@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contentContainer{
+    background-color: #eee;
+}
+
+.line {
+    border-bottom: solid 1px black;
+    width: 60px;
+}
+
+#mainContent {
+    color: black;
+    padding: 0 5%;
+}
+
+#appendToMe {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.inStock {
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    background-color: white;
+    margin: 7px;
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.p_wrap {
+    width: 50%;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+.darkMode {
+    background-color: #2b2b2b;
+}
+
+.darkMode2 {
+    background-color: #424242;
+    border: 1px solid #4e4e4e;
+    color: white;
+}
+
+.darkMode3 {
+    color: white;
+}
+
+.darkMode4 {
+    border: solid 1px white;
+    color: white;
+}
+
+.darkMode5 {
+    border: 1px solid white;
+}
